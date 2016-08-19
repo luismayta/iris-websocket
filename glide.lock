@@ -1,5 +1,5 @@
 hash: 26d95a137f2e8ee386db651e10cc7bcc9a4f14b934399483d1fa8cecb2723ed6
-updated: 2016-08-18T23:04:59.339460129-05:00
+updated: 2016-08-18T23:17:47.47857158-05:00
 imports:
 - name: github.com/aymerick/raymond
   version: a2232af10b53ef1ae5a767f5178db3a6c1dab655
@@ -19,7 +19,6 @@ imports:
   - github.com\flosch\pongo2
 - name: github.com/fsnotify/fsnotify
   version: f12c6236fe7b5cf6bcf30e5935d08cb079d78334
-  repo: https://github.com/fsnotify/fsnotify
 - name: github.com/garyburd/redigo
   version: ffa8d46ada782d81cfda81a0fbd9f45ceae448e8
   subpackages:
@@ -30,7 +29,6 @@ imports:
   - github.com\imdario\mergo
 - name: github.com/iris-contrib/color
   version: 1f565954a55c42b9c66ead36206e91e1d79bafa1
-  repo: https://github.com/iris-contrib/color
 - name: github.com/iris-contrib/errors
   version: 9d4599565f75fd376a8e4ae5ccc98fc078b93b69
   subpackages:
@@ -63,17 +61,14 @@ imports:
   - github.com\klauspost\compress\gzip
 - name: github.com/klauspost/cpuid
   version: 09cded8978dc9e80714c4d85b0322337b0a1e5e0
-  repo: https://github.com/klauspost/cpuid
 - name: github.com/klauspost/crc32
   version: 19b0b332c9e4516a6370a0456e6182c3b5036720
-  repo: https://github.com/klauspost/crc32
 - name: github.com/mattn/go-colorable
   version: ed8eb9e318d7a84ce5915b495b7d35e0cfe7b5a8
   subpackages:
   - github.com\mattn\go-colorable
 - name: github.com/mattn/go-isatty
   version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
-  repo: https://github.com/mattn/go-isatty
 - name: github.com/microcosm-cc/bluemonday
   version: 9dc199233bf72cc1aad9b61f73daf2f0075b9ee4
   subpackages:
@@ -84,10 +79,8 @@ imports:
   - github.com\russross\blackfriday
 - name: github.com/shurcooL/sanitized_anchor_name
   version: 10ef21a441db47d8b13ebcc5fd2310f636973c77
-  repo: https://github.com/shurcooL/sanitized_anchor_name
 - name: github.com/valyala/bytebufferpool
   version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
-  repo: https://github.com/valyala/bytebufferpool
 - name: github.com/valyala/fasthttp
   version: 834fb48f10402a9c58ed0637ec47ba0d91f201c8
   subpackages:
@@ -95,14 +88,10 @@ imports:
   - github.com\valyala\fasthttp\fasthttpadaptor
 - name: golang.org/x/crypto
   version: 9fbab14f903f89e23047b5971369b86380230e56
-  repo: https://golang.org/x/crypto
 - name: golang.org/x/net
   version: 07b51741c1d6423d4a6abab1c49940ec09cb1aaf
-  repo: https://golang.org/x/net
 - name: golang.org/x/sys
   version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
-  repo: https://golang.org/x/sys
 - name: golang.org/x/text
   version: d69c40b4be55797923cec7457fac7a244d91a9b6
-  repo: https://golang.org/x/text
 devImports: []
