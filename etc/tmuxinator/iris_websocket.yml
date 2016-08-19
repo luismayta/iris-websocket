@@ -1,6 +1,6 @@
 # ~/.tmuxinator/iris_websocket.yml
 name: iris_websocket
-root: <%= ENV["PROJECTS"] %>/go/iris/iris_websocket
+root: <%= ENV["PROJECTS"] %>/go/iris/iris-websocket
 tmux_options: -2
 # Optional tmux socket
 # socket_name: foo
