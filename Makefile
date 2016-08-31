@@ -1,4 +1,4 @@
-# Makefile for iris_websocket.
+# Makefile for beego_hello.
 
 # Configuration.
 SHELL = /bin/bash
@@ -18,6 +18,7 @@ INSTALL = $(shell) $(SCRIPT_DIR)/install.sh
 TEST = $(shell) $(SCRIPT_DIR)/test.sh
 RUNSERVER = $(shell) $(SCRIPT_DIR)/runserver.sh
 SYNC = $(shell) $(SCRIPT_DIR)/sync.sh
+LINGUIST = $(shell) $(SCRIPT_DIR)/linguist.sh
 
 install:
 	$(INSTALL)
@@ -49,3 +50,7 @@ runserver:
 
 sync:
 	$(SYNC)
+
+
+linguist:
+	$(LINGUIST)
